@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the color!</title>
+    <link rel="icon" href="icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title-area">
+        <h2 class="title">Guessing game</h2>
+        <p class="head-text">Which color is this?</p>
+        <h1 class="color-code"></h1>
+      </div>
+      <div class="control-line">
+        <div class="btn-area">
+          <button class="btn btn__new-game">New game</button>
+          <p class="text-play"></p>
+          <div class="game-mode">
+            <button class="btn btn__mode-easy">Easy</button>
+            <button class="btn btn__mode-hard active">Hard</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="guessing-area">
+      <div class="square-grid"></div>
+      <div class="win-message">Bingo!</div>
+    </main>
+    <audio controls class="hidden" id="win-sound">
+      <source src="audio/win-87020.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
