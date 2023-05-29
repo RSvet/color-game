@@ -6,4 +6,5 @@ This game is made using HTML, CSS and Vanilla JS.
 - This game is responsive for all screen sizes.
 
 Demo:
-https://guess-the-color-789.netlify.app/
+
+<p><a href="https://guess-the-color-789.netlify.app/">Color game</a></p>
