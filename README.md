@@ -9,10 +9,6 @@ This game is responsive for all screen sizes.
 
 ![Image](/screenshots/image1.png)
 
-![Image](/screenshots/image2.png)
-
-![Image](/screenshots/image3.png)
-
 ## Technologies Used
 
 - HTML
