@@ -8,9 +8,9 @@ This game is responsive for all screen sizes.
 [Color game](https://guess-the-color-789.netlify.app/)
 
 ![Image](/screenshots/image1.png)
-</br>
+
 ![Image](/screenshots/image2.png)
-</br>
+
 ![Image](/screenshots/image3.png)
 
 ## Technologies Used
